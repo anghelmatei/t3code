@@ -4,7 +4,7 @@ import { ChevronDownIcon, ChevronUpIcon } from "lucide-react";
 import type { TimestampFormat } from "../../appSettings";
 import type { ActivePlanState } from "../../session-logic";
 import { formatTimestamp } from "../../timestampFormat";
-import { cn } from "../../lib/utils";
+import { cn } from "~/lib/utils";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 
